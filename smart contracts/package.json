@@ -1,0 +1,37 @@
+{
+  "name": "monad-machine-rwa",
+  "version": "0.1.0",
+  "description": "Cleanverse-native Machine RWA platform on Monad (ERC-3643-style compliance-gated security token backed by Cleanverse A-Pass / Validator APIs)",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat ignition deploy ignition/modules/RWAPlatform.ts --network localhost",
+    "deploy:monad": "hardhat ignition deploy ignition/modules/RWAPlatform.ts --network monadTestnet",
+    "flow:all": "hardhat run scripts/run-all.ts",
+    "flow:monad": "hardhat run scripts/run-monad.ts --network monadTestnet",
+    "flow:monad:audit": "hardhat run scripts/complete-cleanverse-workflow.ts --network monadTestnet",
+    "flow:01": "hardhat run scripts/01-onboard.ts --network localhost",
+    "flow:02": "hardhat run scripts/02-assets.ts --network localhost",
+    "flow:03": "hardhat run scripts/03-vault-token.ts --network localhost",
+    "flow:04": "hardhat run scripts/04-collateralize-mint.ts --network localhost",
+    "flow:05": "hardhat run scripts/05-transfers-yield.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@types/chai": "^4.3.16",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "^20.14.0",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}

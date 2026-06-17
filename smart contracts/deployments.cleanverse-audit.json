@@ -1,0 +1,64 @@
+{
+  "token": "MRWA",
+  "mrwaAddress": "0xcCbe9DA3A0c1FDB7D12957171169BEcB55c37D1f",
+  "chain": "monad",
+  "timestamp": "2026-06-17T19:12:30.353Z",
+  "alice_apass": {
+    "code": "0000",
+    "message": "success",
+    "data": {
+      "subTier": 0,
+      "tier": "20",
+      "expirationTime": 1863690034,
+      "subGroup": "\u0000\u0000",
+      "cvRecordId": "428",
+      "currentKycHash": "0x62cef2b34a6e4a1f3b6f6cc6d0f59fc1aed2a5164409c5284bdb54cf52c87e4b",
+      "group": "\u0000\u0000",
+      "status": 1
+    }
+  },
+  "alice_verify_apass_mrwa": {
+    "code": "0000",
+    "message": "ok",
+    "data": {
+      "chain": "monad",
+      "atoken": "0xcCbe9DA3A0c1FDB7D12957171169BEcB55c37D1f",
+      "address": "0xD37b28E02f3f7d5D4f23F2b6671AA36aC0F66871",
+      "code": 1,
+      "message": "atoken not exist",
+      "magickLink": "https://test-magiclink.cleanverse.com/"
+    }
+  },
+  "bob_apass": {
+    "code": "0000",
+    "message": "success",
+    "data": {
+      "subTier": 0,
+      "tier": "20",
+      "expirationTime": 1863690034,
+      "subGroup": "\u0000\u0000",
+      "cvRecordId": "429",
+      "currentKycHash": "0xc8527dc6b913d97fb4e854171906b2173e00120f13f3edd082ef3ffce4cd40e8",
+      "group": "\u0000\u0000",
+      "status": 1
+    }
+  },
+  "bob_verify_apass_mrwa": {
+    "code": "0000",
+    "message": "ok",
+    "data": {
+      "chain": "monad",
+      "atoken": "0xcCbe9DA3A0c1FDB7D12957171169BEcB55c37D1f",
+      "address": "0x62343276DF60740C2bAd2A0D7E357a02FAaC8B43",
+      "code": 1,
+      "message": "atoken not exist",
+      "magickLink": "https://test-magiclink.cleanverse.com/"
+    }
+  },
+  "mrwa_transfer_tx": "0xbbb829dd10a29ea030ba2ab36f0e0ef54383170c0129ff40b0652df4c04b839a",
+  "travel_rule": {
+    "code": "0002",
+    "message": "[TR_001]Transaction not found. Unable to generate report.",
+    "data": "{}"
+  }
+}

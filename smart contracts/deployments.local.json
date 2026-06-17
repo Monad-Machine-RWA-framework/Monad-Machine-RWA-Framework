@@ -1,0 +1,23 @@
+{
+  "addresses": {
+    "mockUSDC": "0xCf4E9D4a44fE037a84Ff9BFeC3aC7A4e98593Cd7",
+    "identityRegistry": "0x80a58Ec090F6b54967aD41579D816a225A3C85C3",
+    "compliance": "0x15e3F9D35b6436Ce500Bd8f2Cc60A5Cc94C494F7",
+    "securityToken": "0xcCbe9DA3A0c1FDB7D12957171169BEcB55c37D1f",
+    "machineNFT": "0x9c045330fddD6Ef59Da9fE2784BC1321Ed33AA9F",
+    "contractNFT": "0x086CAad51b5d709EF94F03815abcd5c554AD6A60",
+    "vault": "0xCAE0bB0E82BBCbeD3eB3089Df64cc4071b53524f"
+  },
+  "customers": {
+    "alice": "CVAliceD37b28E02f3f",
+    "bob": "CVBob62343276DF60",
+    "charlie": "CVCharlieD9D6Ea0af4D6"
+  },
+  "machineIds": [
+    "1",
+    "2"
+  ],
+  "contractProposalId": "1",
+  "contractTokenId": "1",
+  "lastTransferTxHash": "0x0cffcc1a46a9999fc4378afc87dc1d60b0ce8ae4950f74e6afeee037b7904fd4"
+}
